@@ -35,7 +35,9 @@ To get started with SmartGuideBot, follow these steps:
    python install.py
    
 5. **Execute add_data.py**
+
    Add some data into it according to your needs.
+you should be connected to internet while adding / updating data. The internet is necessary inorder to download audio file for the response. You can also attach video & image in add_data.py along with the user prompt and response. This will copy video & image if selected to the videos/inages folder in the project's directory.
    ```bash
    python add_data.py
    
