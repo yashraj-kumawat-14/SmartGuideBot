@@ -1,5 +1,5 @@
 # SmartGuideBot
-SmartGuideBot is a Python-based chatbot created for Engineers' Day at Shrinathji Institute Of Technology &amp; Engineering(Nathdwara). It helps with admissions, scholarships, faculty info, and campus navigation. Its flexible design allows it to be used for other purposes, like hospital navigation or task scheduling.
+SmartGuideBot is a Python-based chatbot. It helps with admissions, scholarships, faculty info, and campus navigation. Its flexible design allows it to be used for other purposes also, like hospital navigation or task scheduling.
 
 ## Project Images
 ![image alt](https://github.com/yashraj-kumawat-14/SmartGuideBot/blob/main/images/project_image1.png)
@@ -33,8 +33,15 @@ To get started with SmartGuideBot, follow these steps:
 4. **Execute install.py**
    ```bash
    python install.py
+
+5. **Define Paths**
+   FOR WINDOWS
+   If you are in windows then in path.py file define path of video player's .exe file (eg: C:/program files/videolan/vlc.exe) and image viewer's .exe file (eg: C:/program files/irfanview/i_view.exe)
+
+   FOR LINUX
+   If you are in linux then in path.py write "vlc" (if vlc is installed) in VIDEO_PLAYER_PATH variable and in IMAGE_VIEWER_PATH write "<image-viewer-name>".
    
-5. **Execute add_data.py**
+6. **Execute add_data.py**
 
    Add some data into it according to your needs.
 you should be connected to internet while adding / updating data. The internet is necessary inorder to download audio file for the response. You can also attach video & image in add_data.py along with the user prompt and response. This will copy video & image if selected to the videos/inages folder in the project's directory.
