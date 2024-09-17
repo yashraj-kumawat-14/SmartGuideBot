@@ -26,8 +26,13 @@ To get started with SmartGuideBot, follow these steps:
 4. **Execute install.py**
    ```bash
    python install.py
-
-5. **Execute the app**
+   
+5. **Execute add_data.py**
+   Add some data into it according to your needs.
+   ```bash
+   python add_data.py
+   
+7. **Execute the app**
    ```bash
    python app.py
 
