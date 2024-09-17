@@ -61,7 +61,7 @@ def ok():
     except:
         image_name = ""
     try:
-        cursor.execute(f"INSERT INTO data (prompt, response, audio, video, image) VALUES ({prompt.get()}, {response.get()}, {id}.mp3, {video_name}, {image_name})")
+        cursor.execute(f"INSERT INTO data (prompt, response, audio, video, image) VALUES ('{prompt.get()}', '{response.get()}', '{id}.mp3', '{video_name}', '{image_name}')")
     except:
         message.showerror("Error", "Error adding / updating the data in database.")
         root.destroy()
