@@ -3,7 +3,7 @@ SmartGuideBot is a Python-based chatbot created for Engineers' Day at Shrinathji
 
 ## Project Images
 ![Project image 1]
-(./images/project_image1.png)
+(images/project_image1.png)
 
 ## Features
 
