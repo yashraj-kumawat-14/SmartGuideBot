@@ -39,7 +39,7 @@ To get started with SmartGuideBot, follow these steps:
    If you are in windows then in path.py file define path of video player's .exe file (eg: C:/program files/videolan/vlc.exe) and image viewer's .exe file (eg: C:/program files/irfanview/i_view.exe)
 
    FOR LINUX
-   If you are in linux then in path.py write "vlc" (if vlc is installed) in VIDEO_PLAYER_PATH variable and in IMAGE_VIEWER_PATH write "<image-viewer-name>".
+   If you are in linux then in path.py write "vlc" (if vlc is installed) in VIDEO_PLAYER_PATH variable and in IMAGE_VIEWER_PATH write "image-viewer-name".
    
 6. **Execute add_data.py**
 
