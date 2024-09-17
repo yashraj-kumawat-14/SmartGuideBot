@@ -4,6 +4,10 @@ SmartGuideBot is a Python-based chatbot created for Engineers' Day at Shrinathji
 ## Project Images
 ![image alt](https://github.com/yashraj-kumawat-14/SmartGuideBot/blob/main/images/project_image1.png)
 
+![image alt](https://github.com/yashraj-kumawat-14/SmartGuideBot/blob/main/images/project_image2.png)
+
+![image alt](https://github.com/yashraj-kumawat-14/SmartGuideBot/blob/main/images/project_image3.png)
+
 ## Features
 
 - **Dynamic Query Handling**: Responds to user queries about campus-related topics including admissions, scholarships, faculty, and more.
